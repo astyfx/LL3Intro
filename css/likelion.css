@@ -114,3 +114,7 @@ label,
 .u-alignCenter {
 	text-align: center;
 }
+.lead>span {
+    font-size:20pt;
+    color: #E0A051;
+}
