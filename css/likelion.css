@@ -52,6 +52,11 @@ label,
 #logo img {
 	height: 40px;
 }
+@media (max-width: 991px) {
+	#logo {
+	  padding: 15px 0 !important;
+	}	
+}
 
 /* ----------------------------------------------------------------
     Rotate Text
@@ -68,7 +73,44 @@ label,
 .ll-sponser.is-main{
 	height: 300px;
 }
-
 .ll-sponser.is-ym{
 	padding: 70px 30px;
+}
+.portfolio-masonry .portfolio-item .portfolio-image a {
+	text-align: center;
+}
+.portfolio-masonry .portfolio-item .portfolio-image img {
+	display: inline-block !important;
+
+	width: auto !important;
+	min-height: 150px;
+	max-height: 300px !important;
+}
+
+/* ----------------------------------------------------------------
+    Services
+-----------------------------------------------------------------*/
+.feature-box .ll-service-image {
+	width: 220px;
+}
+.ll-service-pd {
+	padding: 20px;
+}
+
+/* ----------------------------------------------------------------
+    Buttons
+-----------------------------------------------------------------*/
+.ll-btn-apply {
+	width: auto;
+	height: auto !important;
+	font-size: 30px !important;
+	font-family: 'Noto-Sans';
+	padding: 10px 22px;
+}
+
+/* ----------------------------------------------------------------
+    Utilities
+-----------------------------------------------------------------*/
+.u-alignCenter {
+	text-align: center;
 }
