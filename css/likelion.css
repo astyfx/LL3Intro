@@ -118,3 +118,7 @@ label,
     font-size:20pt;
     color: #E0A051;
 }
+
+.feature-box {
+    cursor: pointer;
+}
