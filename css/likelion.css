@@ -122,3 +122,25 @@ label,
 .feature-box {
     cursor: pointer;
 }
+
+.nobottommargin {
+   font-family: 'Roboto', sans-serif !important;
+
+}
+
+.likelionEpilog {
+    background-image: url('../images/reviewBackground.png');
+    background-repeat: no-repeat;
+}
+.likelionEpilogTitle {
+    font-size: 30pt;
+}
+
+.flexslider {
+    margin-left: 120px;
+}
+
+.likelionCommentWrapper {
+     float: left;
+     background-color: transparent !important;
+}
