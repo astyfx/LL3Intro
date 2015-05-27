@@ -70,11 +70,17 @@ label,
     Sponsers
 -----------------------------------------------------------------*/
 
-.ll-sponser.is-main{
+.ll-sponser.is-main {
 	height: 300px;
 }
-.ll-sponser.is-ym{
+.ll-sponser.is-ym {
 	padding: 70px 30px;
+}
+.ll-sponser.is-ba {
+	padding: 70px 30px;
+}
+.ll-sponser.is-ba img {
+	height: 120px !important;
 }
 .portfolio-masonry .portfolio-item .portfolio-image a {
 	text-align: center;
