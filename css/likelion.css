@@ -112,6 +112,7 @@ label,
 	font-size: 30px !important;
 	font-family: 'Noto-Sans';
 	padding: 10px 22px;
+    margin-bottom: 100px;
 }
 
 /* ----------------------------------------------------------------
@@ -152,6 +153,20 @@ label,
 }
 
 h2 {
-    margin-top: 100px;
+    margin-top: 15ßßpx;
     font-size: 45pt;
+}
+
+.team-overLay> span {
+  color: rgb(255, 255, 255);
+  font-size: 15pt;
+  float: left;
+  margin-left: 5px;
+}
+.team-overlay div {
+    color: rgb(75, 146, 172);
+    font-size: 16px;
+}
+.likelionTitle {
+    margin:10px 0 0 0 !important;
 }

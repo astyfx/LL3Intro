@@ -346,8 +346,6 @@ textarea.border-form-control {
 	Helper CSS Styles
 ---------------------------------------------------------------------------- */
 
-.font-body { font-family: 'Roboto', sans-serif !important; }
-
 .font-primary { font-family: 'Source Sans Pro', sans-serif !important; }
 
 .t300 { font-weight: 300 !important; }
