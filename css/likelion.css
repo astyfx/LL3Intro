@@ -38,8 +38,21 @@ h6,
 .counter,
 label,
 .wedding-head .first-name,
-.wedding-head .last-name { font-family: 'Noto-Sans', sans-serif; }
+.wedding-head .last-name,
+.ll-font
+{ font-family: 'Noto-Sans', sans-serif; }
 
+::selection {
+  background: #f39800;
+  color: white;
+}
+
+.ll-font-orange {
+  color: #f39800;
+}
+.ll-font-bold {
+  font-weight: 700;
+}
 
 /* ----------------------------------------------------------------
     Likelion Logo
@@ -64,6 +77,11 @@ label,
 
 .opm-large-word {
 	font-size: 80px;
+}
+
+.ll-about-text {
+  margin: 40px 0;
+  font-size: 20px;
 }
 
 /* ----------------------------------------------------------------
@@ -169,4 +187,30 @@ h2 {
 }
 .likelionTitle {
     margin:10px 0 0 0 !important;
+}
+
+/* ----------------------------------------------------------------
+    Introduction
+-----------------------------------------------------------------*/
+.ll-introduction .c-llx img {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.ll-introduction .c-intro {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.ll-introduction .c-intro h3 {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.ll-introduction ul {
+  list-style: none;
+}
+.ll-introduction .c-period .c-period-list {
+  display: inline-block;
+  max-width: 420px;
+  text-align: left;
 }
