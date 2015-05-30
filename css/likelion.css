@@ -65,11 +65,6 @@ label,
 #logo img {
 	height: 40px;
 }
-@media (max-width: 991px) {
-	#logo {
-	  padding: 15px 0 !important;
-	}	
-}
 
 /* ----------------------------------------------------------------
     Rotate Text
@@ -130,7 +125,7 @@ label,
 	font-size: 30px !important;
 	font-family: 'Noto-Sans';
 	padding: 10px 22px;
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 /* ----------------------------------------------------------------
@@ -149,13 +144,15 @@ label,
 }
 
 .nobottommargin {
-   font-family: 'Roboto', sans-serif !important;
-
+  font-family: 'Noto-Sans', sans-serif !important;
 }
 
 .likelionEpilog {
-    background-image: url('../images/reviewBackground.png');
-    background-repeat: no-repeat;
+  background-image: url('../images/reviewBackground.png');
+  background-repeat: no-repeat;
+  min-height: 450px;
+  background-size: 50%;
+  background-position: 0% 32%;
 }
 .likelionEpilogTitle {
     font-size: 30pt;
@@ -213,4 +210,22 @@ h2 {
   display: inline-block;
   max-width: 420px;
   text-align: left;
+}
+
+.flexslider {
+  margin-left: 0;
+}
+
+.parallax .testimonial .testi-content p {
+  font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  #logo {
+    padding: 15px 0 !important;
+  }
+  .likelionEpilog {
+    background-image: none;
+    min-height: 910px;
+  }
 }
