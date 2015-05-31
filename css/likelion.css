@@ -570,4 +570,5 @@
 
 .feature-box span {
   color: #f39800;
+  display: block;
 }
