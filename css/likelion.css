@@ -88,15 +88,14 @@ label,
 /* ----------------------------------------------------------------
     Sponsers
 -----------------------------------------------------------------*/
+.ll-sponser {
+  padding: 50px 0;
+}
 .ll-sponser-item {
   position: relative;
   height: 300px;
   width: 100%;
   display: table;
-}
-.ll-sponser-item.is-sm {
-  width: 20%;
-  height: 80px;
 }
 .ll-sponser-item .c-image {
   text-align: center;
@@ -104,6 +103,20 @@ label,
   vertical-align: middle;
 }
 .ll-sponser-item .c-image img {
+}
+.ll-sponser-item:hover .c-desc {
+  opacity: 1;
+}
+.ll-sponser-item .c-desc .c-desc-link {
+  display: block;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+
+}
+.ll-sponser-item .c-desc span {
+  font-size: 18px;
+  color: white;
 }
 .ll-sponser-item .c-desc {
   opacity: 0;
@@ -121,19 +134,19 @@ label,
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-.ll-sponser-item:hover .c-desc {
-  opacity: 1;
+.ll-sponser-item.is-sm {
+  width: 20%;
+  float: left;
+  height: 172px;
 }
-.ll-sponser-item .c-desc .c-desc-link {
-  display: block;
-  font-size: 50px;
-  color: white;
-  font-weight: 700;
-
+.ll-sponser-item.is-sm .c-desc {
+  padding: 45px 0;
 }
-.ll-sponser-item .c-desc span {
-  font-size: 18px;
-  color: white;
+.ll-sponser-item.is-sm .c-desc .c-desc-link {
+  font-size: 25px;
+}
+.ll-sponser-item.is-sm .c-desc span {
+  font-size: 16px;
 }
 /*
 .ll-sponser.is-main {
@@ -169,6 +182,28 @@ label,
 }
 .ll-service-pd {
 	padding: 20px;
+}
+.ll-service-wrapper {
+  padding: 50px 0;
+}
+.ll-apply {
+  background-color: #303030;
+  padding: 50px 0;
+}
+.ll-apply .ll-apply-description {
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+.ll-apply .ll-apply-description .c-idea {
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  letter-spacing: -2px;
+}
+.ll-apply .ll-apply-description .c-period {
+  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 /* ----------------------------------------------------------------
@@ -215,6 +250,9 @@ label,
 -----------------------------------------------------------------*/
 .u-alignCenter {
 	text-align: center;
+}
+.u-fontBold {
+  font-weight: 700;
 }
 .lead>span {
     font-size:20pt;
@@ -355,14 +393,17 @@ h2 {
 .ll-review-content .c-content {
   font-size: 22px;
   text-align: center;
+  letter-spacing: -2px;
 }
 .ll-review-content .c-student {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .ll-review-content .c-student span {
   display: block;
   font-size: 16px;
+  font-weight: normal;
 }
 .ll-headerText {
   letter-spacing: 20px;
