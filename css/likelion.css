@@ -246,3 +246,12 @@ h2 {
   color:black;
   font-size: 25px;
 }
+
+#content {
+
+}
+
+.common-height {
+    width:900px;
+    margin: 0 auto;
+}
