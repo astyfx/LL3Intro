@@ -91,12 +91,19 @@ label,
 .ll-sponser-item {
   position: relative;
   height: 300px;
+  width: 100%;
+  display: table;
+}
+.ll-sponser-item.is-sm {
+  width: 20%;
+  height: 80px;
 }
 .ll-sponser-item .c-image {
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 .ll-sponser-item .c-image img {
-  height: 250px;
 }
 .ll-sponser-item .c-desc {
   opacity: 0;
@@ -106,8 +113,9 @@ label,
   position: absolute;
   text-align: center;
   top: 0;
+  left: 0;
   padding: 85px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.75);
 
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -119,12 +127,13 @@ label,
 .ll-sponser-item .c-desc .c-desc-link {
   display: block;
   font-size: 50px;
-  color: #f39800;
+  color: white;
   font-weight: 700;
 
 }
-.ll-sponser-item .c-desc .c-desc-link span {
+.ll-sponser-item .c-desc span {
   font-size: 18px;
+  color: white;
 }
 /*
 .ll-sponser.is-main {
@@ -340,18 +349,20 @@ h2 {
 }
 
 .ll-review-content {
-  padding: 40px 0;
+  padding: 60px 0;
   height: 400px;
 }
 .ll-review-content .c-content {
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 .ll-review-content .c-student {
   text-align: center;
+  font-size: 18px;
 }
 .ll-review-content .c-student span {
   display: block;
+  font-size: 16px;
 }
 .ll-headerText {
   letter-spacing: 20px;
@@ -577,5 +588,4 @@ h2 {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
 }
-
 
