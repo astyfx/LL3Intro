@@ -54,6 +54,9 @@
     .ll-font-bold {
       font-weight: 700;
     }
+    .ll-font-underline {
+      text-decoration: underline;
+    }
 
     .ll-section-image {
       /*background-size: 100% 100%;*/
@@ -97,9 +100,22 @@
     letter-spacing: -2px;
   }
   .ll-about-text .c-upper {
-    font-size: 25px;
-    font-weight: 700;
+   /* font-weight: 700;*/
     margin-bottom: 15px;
+  }
+  .ll-about-text .c-upper .top {
+    font-size: 30px;
+  }
+  .ll-about-text .c-upper .middle {
+    font-size: 35px;
+    margin: 30px 0;
+  }
+  .ll-about-text .c-upper .last {
+    font-size: 45px;
+    margin-bottom: 55px;
+  }
+  .ll-about-text .c-lower {
+    font-size: 30px;
   }
 
 /* ----------------------------------------------------------------
