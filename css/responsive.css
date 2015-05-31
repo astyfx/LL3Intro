@@ -626,7 +626,7 @@
 		max-width: none;
 		text-align: center;
 		border: 0 !important;
-		padding: 0 !important;
+		padding: 15px 0 !important;
 	}
 
 	#logo a.standard-logo { display: inline-block; }
