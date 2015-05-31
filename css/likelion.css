@@ -92,9 +92,14 @@
    }
 
    .ll-about-text {
-    margin: 50px 0;
-    font-size: 20px;
+    margin: 70px 0 50px;
+    font-size: 24px;
     letter-spacing: -2px;
+  }
+  .ll-about-text .c-upper {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
   }
 
 /* ----------------------------------------------------------------
@@ -324,8 +329,27 @@
   margin-bottom: 20px;
 }
 .ll-introduction .c-intro {
-  margin-bottom: 50px;
   font-size: 20px;
+}
+.ll-introduction .c-intro.c-learnWrapper {
+  margin-bottom: 50px;
+}
+.ll-introduction .c-intro .c-learn {
+  font-size: 25px;
+  letter-spacing: -2px;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+.ll-introduction .c-intro .c-learn .c-learn-text {
+  /*width: 50%;*/
+  display: inline-block;
+}
+.ll-introduction .c-intro .c-learn .c-learn-icon {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
 }
 .ll-introduction .c-ssn {
 
@@ -565,6 +589,18 @@
   }
   .ll-apply .ll-apply-description .c-text {
     font-size: 26px;
+  }
+  .ll-introduction .c-intro .c-learn {
+    font-size: 20px;
+  }
+  .ll-introduction .c-intro .c-learn .c-learn-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .ll-introduction .c-intro .c-learn .c-learn-icon span {
+    display: block;
   }
 }
 
