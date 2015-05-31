@@ -259,3 +259,11 @@ h2 {
 .col-sm-4 {
   width: 25% !important;
 }
+
+.facebook_division{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+  top: 10px;
+  left: 154px;
+}
