@@ -2,152 +2,152 @@
     Fonts
 
     Replace your Fonts as necessary
------------------------------------------------------------------*/
-body,
-small,
-#primary-menu ul li a,
-#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a,
-#primary-menu ul ul a,
-.wp-caption,
-.feature-box.fbox-center.fbox-italic p,
-.skills li .progress-percent .counter,
-.entry-meta li,
-.entry-link span,
-.entry blockquote p,
-.more-link,
-.comment-content .comment-author span,
-.button.button-desc span,
-.testi-content p,
-.team-title span,
-.before-heading,
-.wedding-head .first-name span,
-.wedding-head .last-name span { font-family: 'Roboto', 'Noto-Sans', sans-serif; }
+    -----------------------------------------------------------------*/
+    body,
+    small,
+    #primary-menu ul li a,
+    #primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a,
+    #primary-menu ul ul a,
+    .wp-caption,
+    .feature-box.fbox-center.fbox-italic p,
+    .skills li .progress-percent .counter,
+    .entry-meta li,
+    .entry-link span,
+    .entry blockquote p,
+    .more-link,
+    .comment-content .comment-author span,
+    .button.button-desc span,
+    .testi-content p,
+    .team-title span,
+    .before-heading,
+    .wedding-head .first-name span,
+    .wedding-head .last-name span { font-family: 'Roboto', 'Noto-Sans', sans-serif; }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-#logo,
-#top-search form input,
-.entry-link,
-.entry.entry-date-section span,
-.button.button-desc,
-.counter,
-label,
-.wedding-head .first-name,
-.wedding-head .last-name,
-.ll-font
-{ font-family: 'Roboto', 'Noto-Sans', sans-serif; }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    #logo,
+    #top-search form input,
+    .entry-link,
+    .entry.entry-date-section span,
+    .button.button-desc,
+    .counter,
+    label,
+    .wedding-head .first-name,
+    .wedding-head .last-name,
+    .ll-font
+    { font-family: 'Roboto', 'Noto-Sans', sans-serif; }
 
-::selection {
-  background: #f39800;
-  color: white;
-}
+    ::selection {
+      background: #f39800;
+      color: white;
+    }
 
-.ll-font-orange {
-  color: #f39800;
-}
-.ll-font-bold {
-  font-weight: 700;
-}
+    .ll-font-orange {
+      color: #f39800;
+    }
+    .ll-font-bold {
+      font-weight: 700;
+    }
 
-.ll-section-image {
-  /*background-size: 100% 100%;*/
-  background-position: 50%;
-  height: 265px;
-}
+    .ll-section-image {
+      /*background-size: 100% 100%;*/
+      background-position: 50%;
+      height: 265px;
+    }
 
 /* ----------------------------------------------------------------
     Likelion Logo
------------------------------------------------------------------*/
+    -----------------------------------------------------------------*/
 
-#logo {
-	padding: 15px 0;
-}
+    #logo {
+     padding: 15px 0;
+   }
 
-#logo img {
-	height: 40px;
-}
+   #logo img {
+     height: 40px;
+   }
 
 /* ----------------------------------------------------------------
     Rotate Text
------------------------------------------------------------------*/
+    -----------------------------------------------------------------*/
 
-.opm-large-word {
-	font-size: 80px;
-}
+    .opm-large-word {
+     font-size: 80px;
+   }
 
-.ll-about-text {
-  margin: 40px 0;
-  font-size: 20px;
-}
+   .ll-about-text {
+    margin: 40px 0;
+    font-size: 20px;
+  }
 
 /* ----------------------------------------------------------------
     Sponsers
------------------------------------------------------------------*/
-.ll-sponser {
-  padding: 50px 0;
-}
-.ll-sponser-item {
-  position: relative;
-  height: 300px;
-  width: 100%;
-  display: table;
-}
-.ll-sponser-item .c-image {
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-}
-.ll-sponser-item .c-image img {
-}
-.ll-sponser-item:hover .c-desc {
-  opacity: 1;
-}
-.ll-sponser-item .c-desc .c-desc-link {
-  display: block;
-  font-size: 50px;
-  color: white;
-  font-weight: 700;
+    -----------------------------------------------------------------*/
+    .ll-sponser {
+      padding: 50px 0;
+    }
+    .ll-sponser-item {
+      position: relative;
+      height: 300px;
+      width: 100%;
+      display: table;
+    }
+    .ll-sponser-item .c-image {
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .ll-sponser-item .c-image img {
+    }
+    .ll-sponser-item:hover .c-desc {
+      opacity: 1;
+    }
+    .ll-sponser-item .c-desc .c-desc-link {
+      display: block;
+      font-size: 50px;
+      color: white;
+      font-weight: 700;
 
-}
-.ll-sponser-item .c-desc span {
-  font-size: 18px;
-  color: white;
-}
-.ll-sponser-item .c-desc {
-  opacity: 0;
+    }
+    .ll-sponser-item .c-desc span {
+      font-size: 18px;
+      color: white;
+    }
+    .ll-sponser-item .c-desc {
+      opacity: 0;
 
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  left: 0;
-  padding: 85px;
-  background: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      left: 0;
+      padding: 85px;
+      background: rgba(0, 0, 0, 0.75);
 
-  -webkit-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-.ll-sponser-item.is-sm {
-  width: 20%;
-  float: left;
-  height: 172px;
-}
-.ll-sponser-item.is-sm .c-desc {
-  padding: 45px 0;
-}
-.ll-sponser-item.is-sm .c-desc .c-desc-link {
-  font-size: 25px;
-}
-.ll-sponser-item.is-sm .c-desc span {
-  font-size: 16px;
-}
+      -webkit-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+    .ll-sponser-item.is-sm {
+      width: 20%;
+      float: left;
+      height: 172px;
+    }
+    .ll-sponser-item.is-sm .c-desc {
+      padding: 50px 0;
+    }
+    .ll-sponser-item.is-sm .c-desc .c-desc-link {
+      font-size: 25px;
+    }
+    .ll-sponser-item.is-sm .c-desc span {
+      font-size: 16px;
+    }
 /*
 .ll-sponser.is-main {
   width: 100%;
@@ -161,54 +161,54 @@ label,
 }
 .ll-sponser.is-ba img {
 	height: 120px !important;
-}*/
+  }*/
 
-.portfolio-masonry .portfolio-item .portfolio-image a {
-	text-align: center;
-}
-.portfolio-masonry .portfolio-item .portfolio-image img {
-	display: inline-block !important;
+  .portfolio-masonry .portfolio-item .portfolio-image a {
+   text-align: center;
+ }
+ .portfolio-masonry .portfolio-item .portfolio-image img {
+   display: inline-block !important;
 
-	width: auto !important;
-	min-height: 150px;
-	max-height: 300px !important;
-}
+   width: auto !important;
+   min-height: 150px;
+   max-height: 300px !important;
+ }
 
 /* ----------------------------------------------------------------
     Services
------------------------------------------------------------------*/
-.feature-box .ll-service-image {
-	width: 220px;
-}
-.ll-service-pd {
-	padding: 20px;
-}
-.ll-service-wrapper {
-  padding: 50px 0;
-}
-.ll-apply {
-  background-color: #303030;
-  padding: 50px 0;
-}
-.ll-apply .ll-apply-description {
-  padding: 20px 0;
-  text-align: center;
-  color: white;
-}
-.ll-apply .ll-apply-description .c-text {
-  font-size: 30px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  letter-spacing: -2px;
-}
-.ll-apply .ll-apply-description .c-period {
-  font-size: 16px;
-  margin-bottom: 40px;
-}
+    -----------------------------------------------------------------*/
+    .feature-box .ll-service-image {
+     width: 220px;
+   }
+   .ll-service-pd {
+     padding: 20px;
+   }
+   .ll-service-wrapper {
+    padding: 50px 0;
+  }
+  .ll-apply {
+    background-color: #303030;
+    padding: 50px 0;
+  }
+  .ll-apply .ll-apply-description {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  .ll-apply .ll-apply-description .c-text {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    letter-spacing: -2px;
+  }
+  .ll-apply .ll-apply-description .c-period {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
 
 /* ----------------------------------------------------------------
     Buttons
------------------------------------------------------------------*/
+    -----------------------------------------------------------------*/
 /*.ll-btn-apply {
 	width: auto;
 	height: auto !important;
@@ -237,54 +237,54 @@ label,
 
   padding: 0;
   line-height: 92px;
-}*/
+  }*/
 /*.ll-btn-apply:hover .c-text {
   display: none;
 }
 .ll-btn-apply:hover .c-icon {
   display: inline-block;
-}*/
+  }*/
 
 /* ----------------------------------------------------------------
     Utilities
------------------------------------------------------------------*/
-.u-alignCenter {
-	text-align: center;
-}
-.u-fontBold {
-  font-weight: 700;
-}
-.lead>span {
+    -----------------------------------------------------------------*/
+    .u-alignCenter {
+     text-align: center;
+   }
+   .u-fontBold {
+    font-weight: 700;
+  }
+  .lead>span {
     font-size:20pt;
     color: #E0A051;
-}
+  }
 
-.feature-box {
+  .feature-box {
     cursor: pointer;
-}
+  }
 
-.likelionEpilog {
-  background-image: url('../images/reviewBackground.png');
-  min-height: 450px;
-  background-size: 50%;
-  background-position: 0% 32%;
-}
-.likelionEpilogTitle {
+  .likelionEpilog {
+    background-image: url('../images/reviewBackground.png');
+    min-height: 450px;
+    background-size: 50%;
+    background-position: 0% 32%;
+  }
+  .likelionEpilogTitle {
     font-size: 30pt;
-}
+  }
 
-.flexslider {
+  .flexslider {
     margin-left: 120px;
-}
+  }
 
-.likelionCommentWrapper {
-     float: left;
-     background-color: transparent !important;
-}
+  .likelionCommentWrapper {
+   float: left;
+   background-color: transparent !important;
+ }
 
-h2 {
-    margin-top: 15ßßpx;
-    font-size: 45pt;
+ h2 {
+  margin-top: 15ßßpx;
+  font-size: 45pt;
 }
 
 .team-overLay> span {
@@ -294,18 +294,18 @@ h2 {
   margin-left: 5px;
 }
 .team-overlay div {
-    color: rgb(75, 146, 172);
-    font-size: 16px;
+  color: rgb(75, 146, 172);
+  font-size: 16px;
 }
 .likelionTitle {
-    margin:10px 0 0 0 !important;
+  margin:10px 0 0 0 !important;
 }
 
 /* ----------------------------------------------------------------
     Introduction
 -----------------------------------------------------------------*/
 .ll-introduction .c-llx img {
-  max-width: 500px;
+  max-width: 100%;
   margin-bottom: 20px;
 }
 .ll-introduction .c-intro {
@@ -524,7 +524,6 @@ h2 {
   -webkit-transition-delay: 0.45s;
   transition-delay: 0.45s;
 }
-
 .bottomButton {
   color:black !important;
 }
