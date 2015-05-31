@@ -88,6 +88,9 @@ label,
 /* ----------------------------------------------------------------
     Sponsers
 -----------------------------------------------------------------*/
+.ll-sponser {
+  padding: 50px 0;
+}
 .ll-sponser-item {
   position: relative;
   height: 300px;
@@ -183,6 +186,25 @@ label,
 .ll-service-wrapper {
   padding: 50px 0;
 }
+.ll-apply {
+  background-color: #303030;
+  padding: 50px 0;
+}
+.ll-apply .ll-apply-description {
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+.ll-apply .ll-apply-description .c-idea {
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  letter-spacing: -2px;
+}
+.ll-apply .ll-apply-description .c-period {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
 
 /* ----------------------------------------------------------------
     Buttons
@@ -228,6 +250,9 @@ label,
 -----------------------------------------------------------------*/
 .u-alignCenter {
 	text-align: center;
+}
+.u-fontBold {
+  font-weight: 700;
 }
 .lead>span {
     font-size:20pt;
@@ -368,14 +393,17 @@ h2 {
 .ll-review-content .c-content {
   font-size: 22px;
   text-align: center;
+  letter-spacing: -2px;
 }
 .ll-review-content .c-student {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .ll-review-content .c-student span {
   display: block;
   font-size: 16px;
+  font-weight: normal;
 }
 .ll-headerText {
   letter-spacing: 20px;
