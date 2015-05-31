@@ -3358,13 +3358,13 @@ body:not(.device-touch) #portfolio {
 	overflow: hidden;
 }
 
-.portfolio-item .portfolio-image,
+/*.portfolio-item .portfolio-image,
 .portfolio-item .portfolio-image a,
 .portfolio-item .portfolio-image img {
 	display: block;
 	width: 276px;
 	height: 207px;
-}
+}*/
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .portfolio-image img {
 	-webkit-transition: all .2s ease-in-out;

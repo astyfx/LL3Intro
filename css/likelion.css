@@ -21,7 +21,7 @@ small,
 .team-title span,
 .before-heading,
 .wedding-head .first-name span,
-.wedding-head .last-name span { font-family: 'Roboto', sans-serif; }
+.wedding-head .last-name span { font-family: 'Roboto', 'Noto-Sans', sans-serif; }
 
 
 h1,
@@ -40,7 +40,7 @@ label,
 .wedding-head .first-name,
 .wedding-head .last-name,
 .ll-font
-{ font-family: 'Noto-Sans', sans-serif; }
+{ font-family: 'Roboto', 'Noto-Sans', sans-serif; }
 
 ::selection {
   background: #f39800;
@@ -84,6 +84,7 @@ label,
 -----------------------------------------------------------------*/
 
 .ll-sponser.is-main {
+  width: 100%;
 	height: 300px;
 }
 .ll-sponser.is-ym {
@@ -141,10 +142,6 @@ label,
 
 .feature-box {
     cursor: pointer;
-}
-
-.nobottommargin {
-  font-family: 'Noto-Sans', sans-serif !important;
 }
 
 .likelionEpilog {
@@ -228,7 +225,7 @@ h2 {
   }
 }
 
-.c-period-list li { 
+.c-period-list li {
   margin-bottom: 5px;
 }
 
@@ -239,10 +236,29 @@ h2 {
 
 .c-intro-title , .c-intro-title img {
   display: block;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .descriptionPoint {
   color:black;
   font-size: 25px;
+}
+
+.portfolio-overlay .portfolio-desc span {
+  font-size: 18px;
+}
+
+.portfolio-image {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+}
+
+.ll-sponser-image {
+  /*width: 100%;*/
+}
+
+.#primary-menu ul li a {
+  font-weight: 500;
+  letter-spacing: 0;
 }
