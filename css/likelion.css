@@ -100,7 +100,7 @@
     Sponsers
     -----------------------------------------------------------------*/
     .ll-sponser {
-      padding: 50px 0;
+      padding: 60px 0;
     }
     .ll-sponser-item {
       position: relative;
@@ -201,7 +201,7 @@
      padding: 20px;
    }
    .ll-service-wrapper {
-    padding: 50px 0;
+    padding: 60px 0;
   }
   .ll-apply {
     background-image: url('../images/bg/last.jpg');
@@ -329,6 +329,20 @@
     .ll-introduction .c-intro {
       margin-bottom: 50px;
       font-size: 20px;
+    }
+    .ll-introduction .c-swn {
+
+    }
+    .ll-introduction .c-swn .c-swn-header {
+      font-size: 35px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .ll-introduction .c-swn .c-swn-image {
+      margin-bottom: 20px;
+    }
+    .ll-introduction .c-swn .c-swn-text {
+      font-size: 15px;
     }
     .ll-introduction .c-intro h3 {
       text-align: center;
