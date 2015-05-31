@@ -532,3 +532,7 @@
 .bottomButton {
   color:black !important;
 }
+
+.ll-apply-description >div{
+  color: #e5e5e5;
+}
