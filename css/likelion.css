@@ -117,6 +117,12 @@
   .ll-about-text .c-lower {
     font-size: 30px;
   }
+  .ll-about-text .c-lower a {
+    color: #f39800;
+  }
+  .ll-about-text .c-lower a:hover {
+    color: #1ABC9C;
+  }
 
 /* ----------------------------------------------------------------
     Sponsers
@@ -620,6 +626,12 @@
   }
   .ll-sponser-item .c-desc .c-desc-link {
     font-size: 20px;
+  }
+  .ll-about-text .c-upper .top {
+    font-size: 25px;
+  }
+  .ll-about-text .c-upper .middle {
+    font-size: 30px;
   }
 }
 
