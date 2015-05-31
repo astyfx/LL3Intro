@@ -602,6 +602,9 @@
   .ll-introduction .c-intro .c-learn .c-learn-icon span {
     display: block;
   }
+  .ll-sponser-item .c-desc .c-desc-link {
+    font-size: 20px;
+  }
 }
 
 .feature-box span {
