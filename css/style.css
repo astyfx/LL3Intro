@@ -6497,6 +6497,7 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 
 
 .button {
+	font-size: 30px;
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
@@ -6504,7 +6505,6 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	white-space: nowrap;
 	margin: 5px;
 	padding: 0 22px;
-	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
 	background-color: transparent;
