@@ -195,7 +195,7 @@ label,
   text-align: center;
   color: white;
 }
-.ll-apply .ll-apply-description .c-idea {
+.ll-apply .ll-apply-description .c-text {
   font-size: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -341,6 +341,13 @@ h2 {
   .likelionEpilog {
     background-image: none;
     min-height: 910px;
+  }
+  .ll-sponser-item.is-sm {
+    width: 100%;
+  }
+  #facebook_division {
+    left: auto !important;
+    right: 0;
   }
 }
 
