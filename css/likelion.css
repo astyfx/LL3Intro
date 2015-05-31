@@ -548,6 +548,7 @@
       color:black !important;
     }
 
+<<<<<<< HEAD
  @media (max-width: 991px) {
       #logo {
         padding: 15px 0 !important;
@@ -572,3 +573,8 @@
         font-size: 26px;
       }
     }
+=======
+    .feature-box span {
+      color: #f39800;
+    }
+>>>>>>> cd93e3249f99a811043f859f5815f5df7b475a7f
