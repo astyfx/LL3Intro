@@ -54,6 +54,12 @@ label,
   font-weight: 700;
 }
 
+.ll-section-image {
+  /*background-size: 100% 100%;*/
+  background-position: 50%;
+  height: 265px;
+}
+
 /* ----------------------------------------------------------------
     Likelion Logo
 -----------------------------------------------------------------*/
@@ -82,7 +88,45 @@ label,
 /* ----------------------------------------------------------------
     Sponsers
 -----------------------------------------------------------------*/
+.ll-sponser-item {
+  position: relative;
+  height: 300px;
+}
+.ll-sponser-item .c-image {
+  text-align: center;
+}
+.ll-sponser-item .c-image img {
+  height: 250px;
+}
+.ll-sponser-item .c-desc {
+  opacity: 0;
 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  padding: 85px;
+  background: rgba(255, 255, 255, 0.7);
+
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.ll-sponser-item:hover .c-desc {
+  opacity: 1;
+}
+.ll-sponser-item .c-desc .c-desc-link {
+  display: block;
+  font-size: 50px;
+  color: #f39800;
+  font-weight: 700;
+
+}
+.ll-sponser-item .c-desc .c-desc-link span {
+  font-size: 18px;
+}
+/*
 .ll-sponser.is-main {
   width: 100%;
 	height: 300px;
@@ -95,7 +139,8 @@ label,
 }
 .ll-sponser.is-ba img {
 	height: 120px !important;
-}
+}*/
+
 .portfolio-masonry .portfolio-item .portfolio-image a {
 	text-align: center;
 }
@@ -127,6 +172,33 @@ label,
 	font-family: 'Noto-Sans';
 	padding: 10px 22px;
   margin-bottom: 100px;
+  border-radius: 0px;
+}
+.ll-btn-apply .c-icon {
+  width: 100px;
+  height: 100px;
+  background: white;
+  display: none;
+  border-radius: 50%;
+}
+.ll-btn-apply .c-icon img {
+  width: 55px;
+}
+.ll-btn-apply:hover {
+  text-align: center;
+  background: transparent;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px !important;
+
+  padding: 0;
+  line-height: 92px;
+}
+.ll-btn-apply:hover .c-text {
+  display: none;
+}
+.ll-btn-apply:hover .c-icon {
+  display: inline-block;
 }
 
 /* ----------------------------------------------------------------
@@ -254,11 +326,42 @@ h2 {
   height: 300px;
 }
 
-.ll-sponser-image {
-  /*width: 100%;*/
-}
-
 .#primary-menu ul li a {
   font-weight: 500;
   letter-spacing: 0;
+}
+
+
+.ll-review-content {
+  padding: 40px 0;
+  height: 400px;
+}
+.ll-review-content .c-content {
+  font-size: 18px;
+  text-align: center;
+}
+.ll-review-content .c-student {
+  text-align: center;
+}
+.ll-review-content .c-student span {
+  display: block;
+}
+.ll-headerText {
+  letter-spacing: 20px;
+  color: white;
+  font-weight: 700;
+}
+.ll-headerText-sub {
+  color: white;
+}
+.testimonial.testimonial-full .flex-control-nav {
+  height: 12px;
+}
+.testimonial .flex-control-nav li {
+  width: 12px;
+  height: 12px;
+}
+.testimonial .flex-control-nav li a {
+  width: 12px !important;
+  height: 12px !important;
 }
