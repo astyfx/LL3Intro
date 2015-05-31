@@ -331,6 +331,13 @@ h2 {
   letter-spacing: 0;
 }
 
+.facebook_division{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+  top: 10px;
+  left: 154px;
+}
 
 .ll-review-content {
   padding: 40px 0;
@@ -364,4 +371,5 @@ h2 {
 .testimonial .flex-control-nav li a {
   width: 12px !important;
   height: 12px !important;
+>>>>>>> cc51f79b6509371ea181e051cb37772f8fbb9a21
 }
