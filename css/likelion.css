@@ -548,3 +548,7 @@
     .bottomButton {
       color:black !important;
     }
+
+    .feature-box span {
+      color: #f39800;
+    }
