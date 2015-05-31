@@ -94,6 +94,7 @@
    .ll-about-text {
     margin: 50px 0;
     font-size: 20px;
+    letter-spacing: -2px;
   }
 
 /* ----------------------------------------------------------------
@@ -342,7 +343,8 @@
       margin-bottom: 20px;
     }
     .ll-introduction .c-ssn .c-ssn-text {
-      font-size: 15px;
+      font-size: 17px;
+      letter-spacing: -1px;
     }
     .ll-introduction .c-intro h3 {
       text-align: center;
@@ -364,23 +366,6 @@
 
     .parallax .testimonial .testi-content p {
       font-size: 20px;
-    }
-
-    @media (max-width: 991px) {
-      #logo {
-        padding: 15px 0 !important;
-      }
-      .likelionEpilog {
-        background-image: none;
-        min-height: 910px;
-      }
-      .ll-sponser-item.is-sm {
-        width: 100%;
-      }
-      .fb-like {
-        left: auto !important;
-        right: 0;
-      }
     }
 
     .c-period-list li {
@@ -419,7 +404,7 @@
     }
     .ll-review-content {
       padding: 60px 0;
-      height: 650px;
+      /*height: 650px;*/
     }
     .ll-review-content .c-profile {
       margin-bottom: 35px;
@@ -561,4 +546,29 @@
     }
     .bottomButton {
       color:black !important;
+    }
+
+ @media (max-width: 991px) {
+      #logo {
+        padding: 15px 0 !important;
+      }
+      .ll-about-text {
+        font-size: 18px;
+      }
+      .ll-sponser-item.is-sm {
+        width: 100%;
+      }
+      .fb-like {
+        margin-top: 25px;
+        left: 220px;
+      }
+      .ll-review-content .c-content {
+        font-size: 18px;
+      }
+      .ll-sponser-smWrapper .c-header{
+        font-size: 30px;
+      }
+      .ll-apply .ll-apply-description .c-text {
+        font-size: 26px;
+      }
     }
