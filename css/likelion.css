@@ -255,3 +255,7 @@ h2 {
     width:900px;
     margin: 0 auto;
 }
+
+.col-sm-4 {
+  width: 25% !important;
+}
