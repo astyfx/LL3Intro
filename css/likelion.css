@@ -458,6 +458,8 @@ h2 {
   transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 .button--nina::before {
+  border-radius: 100px;
+  background-color: transparent;
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -470,7 +472,7 @@ h2 {
   transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 .button--nina:hover {
-  background-color: #3f51b5;
+  background-color: #F39800;
 }
 .button--nina:hover::before {
   opacity: 0;

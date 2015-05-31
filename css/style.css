@@ -6497,6 +6497,8 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 
 
 .button {
+	border-radius: 100px;
+    background-color: transparent;
 	font-size: 30px;
 	display: inline-block;
 	position: relative;
@@ -6536,8 +6538,8 @@ body:not(.device-touch) .button {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.button.button-dark:hover { background-color: #1ABC9C; }
-
+/*.button.button-dark:hover { background-color: #1ABC9C; }
+*/
 .button.button-mini {
 	padding: 0 14px;
 	font-size: 11px;
@@ -6555,7 +6557,7 @@ body:not(.device-touch) .button {
 .button.button-large {
 	padding: 0 26px;
 	font-size: 16px;
-	height: 46px;
+	height: 46px
 	line-height: 46px;
 }
 
@@ -6679,8 +6681,8 @@ body:not(.device-touch) .button {
 }
 
 .button.button-3d:hover {
-	background-color: #1ABC9C !important;
-	opacity: 0.9;
+/*	background-color: #1ABC9C !important;
+*/	opacity: 0.9;
 }
 
 .button.button-3d.button-light:hover,
