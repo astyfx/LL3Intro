@@ -599,10 +599,6 @@
   .ll-sponser-item.is-sm {
     width: 100%;
   }
-  .fb-wrapper {
-    margin-top: 25px;
-    left: 210px;
-  }
   .ll-review-content .c-content {
     font-size: 16px;
   }
@@ -632,6 +628,12 @@
   }
   .ll-about-text .c-upper .middle {
     font-size: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .fb-wrapper {
+    margin-top: 25px;
+    left: 210px;
   }
 }
 
